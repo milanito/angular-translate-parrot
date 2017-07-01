@@ -1,0 +1,57 @@
+{
+  "name": "angular-translate-loader-parrot",
+  "version": "0.1.0",
+  "description": "This is a custom loader for angular translate using parrot backend",
+  "main": "dist/angular-translate-loader-parrot.js",
+  "repository": "https://github.com/milanito/angular-translate-parrot.git",
+  "author": "Matthieu Rondeau <matt@matthieurondeau.fr>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist && webpack -p --bail --progress --profile",
+    "doc": "gulp doc",
+    "lint": "gulp lint",
+    "prepush": "gulp lint",
+    "prepublish": "rimraf dist && webpack -p --bail --progress --profile"
+  },
+  "devDependencies": {
+    "angular": "^1.6.4",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-angularjs-annotate": "^0.7.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.3.0",
+    "gulp": "^3.9.1",
+    "gulp-esdoc": "^0.4.1",
+    "gulp-eslint": "^4.0.0",
+    "husky": "^0.13.4",
+    "node-sass": "^4.5.3",
+    "rimraf": "^2.6.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "gettext-parser": "^1.2.2",
+    "i18next-conv": "^3.0.3",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-2"
+    ],
+    "plugins": [
+      "add-module-exports",
+      "angularjs-annotate"
+    ]
+  }
+}
