@@ -1,6 +1,6 @@
 {
   "name": "angular-translate-loader-parrot",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This is a custom loader for angular translate using parrot backend",
   "main": "dist/angular-translate-loader-parrot.js",
   "repository": "https://github.com/milanito/angular-translate-parrot.git",
