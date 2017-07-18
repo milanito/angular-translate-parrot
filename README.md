@@ -1,5 +1,7 @@
 # angular-translate-parrot
 
+[![CircleCI](https://circleci.com/gh/milanito/angular-translate-parrot.svg?style=svg)](https://circleci.com/gh/milanito/angular-translate-parrot) [![GitHub issues](https://img.shields.io/github/issues/milanito/angular-translate-parrot.svg)](https://github.com/milanito/angular-translate-parrot/issues) [![GitHub stars](https://img.shields.io/github/stars/milanito/angular-translate-parrot.svg)](https://github.com/milanito/angular-translate-parrot/stargazers) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/milanito/angular-translate-parrot/master/LICENSE) [![npm version](https://badge.fury.io/js/angular-translate-loader-parrot.svg)](https://badge.fury.io/js/angular-translate-loader-parrot)
+
 This is a custom loader for angular translate with [parrot](http://anthonynsimon.com/parrot.github.io/) backend
 
 > **Warning :** This has only been tested in specific cases and might not suit everyone, do not hesitate to make a PR :)
